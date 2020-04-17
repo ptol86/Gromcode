@@ -1,10 +1,9 @@
+function checkEven(number){
+    return number % 2 === 0
+}
 function getEven(arr){
 
-    function checkEven(number){
-        return number % 2 === 0
-    }
-
-    const evenArr = arr.filter(checkEven)
+        const evenArr = arr.filter(checkEven)
     return evenArr
 }
 
