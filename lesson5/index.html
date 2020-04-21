@@ -6,25 +6,57 @@
     <title>Selectors Exercise</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <style>
-        input[type="checkbox"]:checked {
-            margin-left: 50px;
+        body {
+            background-color: #bdc3c7;
         }
         
-        label {
-            text-transform: uppercase;
+        h1 {
+            color: #9b59b6;
         }
         
-        #special::first-letter {
-            font-size: 100px;
-            color: green;
+        h2 {
+            color: orange;
         }
         
-        h1:hover {
+        li {
             color: blue;
         }
         
-        a:visited {
-            color: grey;
+        p {
+            background-color: yellow;
+        }
+        
+        input {
+            border: 3px solid red;
+        }
+        
+        .hello {
+            background-color: white;
+        }
+        
+        #special {
+            border: 2px solid blue;
+        }
+        
+        div p {
+            font-size: 25px;
+        }
+        
+        input[type="text"] {
+            background-color: grey;
+        }
+        
+        div:nth-of-type(3)>p {
+            background-color: yellow;
+        }
+        
+        div:nth-of-type(3)>p:nth-of-type(2) {
+            border: 5px solid white;
+        }
+        
+        div:nth-of-type(3) em {
+            color: white;
+            font-size: 20px;
         }
     </style>
 </head>
