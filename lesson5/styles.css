@@ -29,9 +29,10 @@ main {
     height: 200px;
     background-color: aquamarine;
     position: absolute;
-    left: calc(50%);
-    right: calc(50%);
+    left: calc(45%);
+    */ right: calc(50%);
     top: calc(50%);
+    */
 }
 
 .ear {
