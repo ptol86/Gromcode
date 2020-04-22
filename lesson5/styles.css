@@ -1,29 +1,71 @@
-.block_red,
-.block_green,
-.block_blue,
-.block_yellow,
-.block_black {
+.header,
+.nvigation,
+.nav-list {
+    height: 40px;
+    margin: 0;
+    z-index: 10;
+}
+
+.nav-item {
+    line-height: 40px;
+    display: inline-block;
+    color: white;
+    margin-left: 16px;
+}
+
+.header {
+    background-color: darkturquoise;
+    width: 100%;
+    position: fixed;
+}
+
+main {
+    background-color: beige;
+    height: 5000px;
+}
+
+.head {
+    width: 200px;
     height: 200px;
-    width: 20%;
-    float: left;
+    background-color: aquamarine;
+    position: absolute;
+    left: calc(50%);
+    right: calc(50%);
+    top: calc(50%);
 }
 
-.block_red {
-    background-color: red;
+.ear {
+    width: 40px;
+    height: 60px;
+    background-color: brown;
 }
 
-.block_green {
-    background-color: green;
+.eye {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+    position: absolute;
+    top: 80px;
 }
 
-.block_blue {
-    background-color: blue;
+.ear_right {
+    position: relative;
+    bottom: 60px;
+    right: 40px;
 }
 
-.block_yellow {
-    background-color: yellow;
+.ear_left {
+    position: relative;
+    bottom: 120px;
+    left: 200px;
 }
 
-.block_black {
-    background-color: black;
+.eye_right {
+    left: 40px;
+}
+
+.eye_left {
+    right: 40px;
 }
