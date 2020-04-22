@@ -1,11 +1,21 @@
-p {
-    color: green;
+.static-parent {
+    position: static;
 }
 
-li {
-    color: orange;
+.relative-parent {
+    position: relative;
+    top: 20px;
+    left: 50px;
 }
 
-.list {
-    font-size: 24px;
+.absolute-parent {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+.fixed-parent {
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
 }
