@@ -11,6 +11,7 @@ li.nav-item {
     display: inline-block;
     color: white;
     margin-left: 16px;
+    float: left;
 }
 
 .header {
