@@ -28,8 +28,8 @@
     z-index: 1;
     display: none;
     list-style-type: none;
-    padding: 16px;
     position: absolute;
+    padding: 0;
 }
 
 .menu-item {
