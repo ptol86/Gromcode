@@ -3,6 +3,7 @@
     margin: 8px;
     padding: 16px;
     width: 300px;
+    flex: auto;
 }
 
 header {
@@ -12,7 +13,8 @@ header {
 
 .articles-list {
     display: flex;
+    flex-shrink: 0;
     flex-wrap: wrap;
     flex-grow: 1;
-    flex-basis: auto;
+    justify-content: space-between;
 }
