@@ -1,14 +1,9 @@
-* {
-    box-sizing: border-box;
-}
-
 .text {
     background-color: grey;
     color: white;
     padding: 8px;
     border-radius: 4px;
     position: absolute;
-    z-index: 1;
     display: none;
     bottom: -40px;
 }
@@ -18,7 +13,6 @@
     border-bottom: 1px dotted black;
     display: inline-block;
     position: relative;
-    z-index: 3;
 }
 
 .tooltip:hover .text {
