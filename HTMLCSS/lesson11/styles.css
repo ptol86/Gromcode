@@ -1,11 +1,24 @@
-.container>div:nth-child(1) {
-    display: none;
+body>div {
+    display: flex;
 }
 
-.container>div:nth-child(2) {
-    visibility: hidden;
+.articles>div {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
 }
 
-.container>div:nth-child(3) {
-    visibility: visible;
+.cropped {
+    overflow: hidden;
+}
+
+.both-scrolls {
+    overflow: scroll;
+    cursor: all-scroll;
+}
+
+.vertical-scroll {
+    overflow-y: scroll;
+    cursor: all-scroll;
 }
