@@ -2,7 +2,7 @@
     background-color: bisque;
     margin: 8px;
     padding: 16px;
-    flex: 300px 1 0;
+    flex: 300px 1 1;
 }
 
 header {
@@ -12,8 +12,6 @@ header {
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-}
-
-* {
-    box-sizing: border-box;
+    flex-grow: 1;
+    justify-content: space-between;
 }
