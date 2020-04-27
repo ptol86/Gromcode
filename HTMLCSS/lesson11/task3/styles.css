@@ -10,6 +10,7 @@
 
 .menu-button:hover {
     opacity: 1;
+    display: inline-block;
 }
 
 .dropdown {
@@ -28,9 +29,18 @@
     display: none;
     list-style-type: none;
     padding: 16px;
+    position: absolute;
+}
+
+.menu-item {
+    padding: 16px;
+    display: block;
 }
 
 .dropdown:hover .menu-list {
     display: block;
+}
+
+.menu-item:hover {
     background-color: ghostwhite;
 }
