@@ -8,13 +8,13 @@
     bottom: -40px;
 }
 
-.tooltip-text {
+.text {
     margin: 16px;
     border-bottom: 1px dotted black;
     display: inline-block;
     position: relative;
 }
 
-.tooltip-text:hover .tooltip {
+.text:hover .tooltip {
     display: block;
 }
