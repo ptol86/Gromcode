@@ -1,4 +1,4 @@
-.text {
+.tooltip {
     background-color: grey;
     color: white;
     padding: 8px;
@@ -8,13 +8,13 @@
     bottom: -40px;
 }
 
-.tooltip {
+.tooltip-text {
     margin: 16px;
     border-bottom: 1px dotted black;
     display: inline-block;
     position: relative;
 }
 
-.tooltip:hover .text {
+.tooltip-text:hover .tooltip {
     display: block;
 }
