@@ -1,0 +1,19 @@
+body {
+    background-color: #bdc3c7;
+}
+
+h1 {
+    color: #9b5945;
+}
+
+li {
+    background-color: blue;
+}
+
+.hello {
+    background-color: white;
+}
+
+#special {
+    border: 2px solid blue;
+}
