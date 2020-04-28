@@ -8,52 +8,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/.styles.css">
 </head>
+
 <style>
     html {
-        font-family: Roboto, sans-serif;
-        font-size: 18px;
-    }
-    
-    section {
-        margin: 32px;
+        font-family: Verdana, sans-serif;
     }
     
     h1 {
+        font-size: 74px;
+        line-height: 74px;
+        width: 50vw;
+        text-overflow: ellipsis;
         text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    div {
+        height: 200px;
+        background-color: coral;
+        color: white;
         text-transform: uppercase;
-        word-spacing: 20px;
-    }
-    
-    p {
-        line-height: 28px;
-    }
-    
-    .firstword {
-        font-weight: 900;
-        letter-spacing: 3px;
-        font-size: 24px;
-        opacity: 80%;
-        text-decoration: underline;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    em {
-        color: grey;
+        text-align: center;
+        line-height: 200px;
     }
 </style>
 
 <body>
-    <section>
-        <h1>Web technologies</h1>
-        <p> <span class="firstword">HTML</span> (от англ. <em>HyperText Markup Language</em> — «язык гипертекстовой разметки») — стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке
-            HTML (или XHTML). Язык <a target="_blank" href="https://ru.wikipedia.org/wiki/HTML">HTML</a> интерпретируется браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного
-            устройства.
-        </p>
-        <p> <span class="firstword">CSS</span> (/siːɛsɛs/ англ. <em>Cascading Style Sheets</em> — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, написанного с использованием языка разметки.</p>
-    </section>
+    <header>
+        <h1>Some very long header. Really to long for this page</h1>
+    </header>
+    <div>
+        Center is here
+    </div>
 </body>
+
 
 </html>
