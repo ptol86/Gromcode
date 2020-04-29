@@ -17,8 +17,8 @@
     text-transform: uppercase;
     font-weight: 700;
     opacity: 0.5;
-    top: calc(50%-25px);
-    left: calc(50%-100px);
+    top: calc(50% - 25px);
+    left: calc(50% - 100px);
     cursor: pointer;
     display: flex;
     align-items: center;
