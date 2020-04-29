@@ -9,30 +9,38 @@
 </head>
 
 <body>
-    <div>
-        <input type="text" name="lastName" value="Emerson" readonly>
-    </div>
-    <div>
-        <input type="number" name="age" value="17" required min="3" max="10">
-    </div>
-    <div>
+    <form>
+        <div>
+            <label for="last-name"> Last Name</label>
+            <input id="last-name" type="text" name="lastName" value="Emerson" readonly>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input id="age" type="number" name="age" value="17" required min="3" max="10">
+        </div>
+        <div>
+            <label>
+        <input type="checkbox" name="agree" disabled>
+        Accept terms and conditions
+        </label>
 
-        <input type="checkbox" name="agree" disabled>Accept terms and conditions
+        </div>
+        <div class="choose-gender">
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender" checked>
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="gender">
+            <label for="secret">Secret</label>
+            <input id="secret" type="radio" name="gender">
+        </div>
+        <div>
+            <textarea name="description" placeholder="Write description..." maxlength="10"></textarea>
 
-
-    </div>
-    <div class="choose-gender">
-        <input type="radio" name="gender" checked>Male
-        <input type="radio" name="gender">Female
-        <input type="radio" name="gender">Secret
-    </div>
-    <div>
-        <textarea name="description" placeholder="Write description..."></textarea>
-
-    </div>
-    <div>
-        <button type="submit">Submit</button>
-    </div>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
 </body>
 
 </html>
