@@ -13,6 +13,6 @@
         margin: 8px;
     }
     
-    [type="radio"] {
+    .languages [type="radio"] {
         display: inline-block;
     }

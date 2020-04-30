@@ -23,15 +23,17 @@
             <input type="number" name="favoriteNumber" value="17">
             <textarea name="story" placeholder="A long time ago..." cols="30" rows="5"></textarea>
             <input type="password" name="password" value="secret">
-            <label>
-                <input type="radio" name="language" value="html">HTML
-            </label>
-            <label>
-                <input type="radio" name="language" value="css">CSS
-            </label>
-            <label>
-                <input type="radio" name="language" value="javascript">JavaScript
-            </label>
+            <div class="languages">
+                <label>
+                    <input type="radio" name="language" value="html">HTML
+                </label>
+                <label>
+                    <input  type="radio" name="language" value="css" checked>CSS
+                </label>
+                <label>
+                    <input type="radio" name="language" value="javascript">JavaScript
+                </label>
+            </div>
             <input type="range" name="learningProgress" value="30">
             <select name="framework">
                 <option value="react">React</option>
