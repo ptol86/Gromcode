@@ -1,11 +1,7 @@
-    * {
-        box-sizing: border-box;
-    }
-    
-    .login-form {
-        margin: 32px;
-    }
-    
-    div {
-        margin: 8px;
-    }
+ .login-form {
+     margin: 32px;
+ }
+ 
+ div {
+     margin: 8px;
+ }
