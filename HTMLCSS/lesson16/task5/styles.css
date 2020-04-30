@@ -6,13 +6,6 @@
         margin: 32px;
     }
     
-    input,
-    textarea,
-    select {
-        display: block;
-        margin: 8px;
-    }
-    
-    .languages [type="radio"] {
-        display: inline-block;
+    div {
+        margin: 8PX;
     }
