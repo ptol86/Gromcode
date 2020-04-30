@@ -17,3 +17,11 @@ td {
     text-align: right;
     padding: 4px;
 }
+
+div {
+    overflow-x: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
