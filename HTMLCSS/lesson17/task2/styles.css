@@ -12,12 +12,15 @@ table {
     overflow-x: auto;
 }
 
+tfoot {
+    font-weight: 700;
+}
+
 th,
 td {
     text-align: right;
     padding: 4px;
-    line-height: 40px;
-    font-weight: 700;
+    height: 40px;
 }
 
 * {
