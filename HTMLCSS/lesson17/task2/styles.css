@@ -17,6 +17,7 @@ td {
     text-align: right;
     padding: 4px;
     line-height: 40px;
+    font-weight: 700;
 }
 
 * {
@@ -37,5 +38,5 @@ tbody>tr:hover {
 }
 
 caption {
-    margin: 8px;
+    margin-bottom: 8px;
 }
