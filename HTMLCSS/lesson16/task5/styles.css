@@ -6,14 +6,11 @@
         margin: 32px;
     }
     
-    input {
-        margin: 4px 8px;
-    }
-    
     input,
     textarea,
     select {
         display: block;
+        margin: 8px;
     }
     
     [type="radio"] {
