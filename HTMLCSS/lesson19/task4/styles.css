@@ -1,5 +1,6 @@
-* {
-    box-sizing: border-box;
+body {
+    display: flex;
+    justify-content: center;
 }
 
 .block {
@@ -17,7 +18,6 @@
     text-align: center;
     animation: moving 2s ease;
     animation-fill-mode: forwards;
-    margin: auto;
 }
 
 @keyframes moving {
