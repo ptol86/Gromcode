@@ -11,7 +11,7 @@
     text-transform: uppercase;
     line-height: 100px;
     text-align: center;
-    animation: moving 2s;
+    animation: moving 2s ease;
     animation-fill-mode: forwards;
     margin: auto;
 }
@@ -21,6 +21,6 @@
         top: -100px;
     }
     to {
-        top: calc(50vh -50px)
+        top: calc(50vh - 50px)
     }
 }
