@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect {
+    height: 4px;
+    width: 10px;
+    background-color: #000;
+    animation: blinking 2s infinite;
+    animation: moving 2s infinite;
+    border-radius: 2px;
+    position: relative;
+}
+
+.spinner-text {
+    font-size: 16px;
+    font-family: monospace;
+    text-transform: uppercase;
+    animation: blinking 2s infinite linear;
+}
+
+@keyframes moving {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    50% {
+        left: 70px;
+    }
+    75% {
+        left: 0px;
+        ;
+    }
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
