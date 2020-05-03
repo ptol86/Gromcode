@@ -42,3 +42,76 @@ function arrayMadness(a, b) {
     return sumA > sumB;
 }
 let someA = someB = 0;
+
+function correctPolishLetters(string) {
+    let polishDict = {
+        "ą": "a",
+        "ć": "c",
+        "ę": "e",
+        "ł": "l",
+        "ń": "n",
+        "ó": "o",
+        "ś": "s",
+        "ź": "z",
+        "ż": "z"
+    };
+    let arr = string.split("");
+    for (let i = 0; i < arr.length; i++) {
+        let result = polishDict[arr[i]];
+        if (typeof result !== "undefined") {
+            arr[i] = polishDict[arr[i]];
+        }
+
+    }
+
+    return arr.join("");
+}
+
+function expressionMatter(a, b, c) {
+    let arr = [];
+    arr.push(a * (b + c));
+    arr.push(a + b + c);
+    arr.push(a * b * c);
+    arr.push(a * b + c);
+    arr.push((a + b) * c);
+    arr.push(a + b * c);
+
+
+    return Math.max.apply(Math, arr);
+}
+
+function strCount(str, letter) {
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (str.charAt(i) === letter) {
+            count += 1;
+        }
+    }
+    return count;
+}
+
+function strCount(str, letter) {
+    return str.split('').filter((curLetter) => curLetter === letter).length;
+}
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return (distanceToPump <= (mpg * fuelLeft));
+};
+
+function differenceInAges(ages) {
+    let arr = [];
+    arr.push(Math.min.apply(Math, ages));
+    arr.push(Math.max.apply(Math, ages));
+    arr.push(Math.max(ages)) - (Math.min(ages));
+    return arr;
+}
+
+function removeEveryOther(arr) {
+    let result = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (i % 2 === 0) {
+            result.push(arr[i]);
+        }
+    }
+    return result;
+}
