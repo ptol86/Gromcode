@@ -20,3 +20,25 @@ String.prototype.isUpperCase = function() {
 
     return true;
 }
+
+function arrayMadness(a, b) {
+    let sumA = 0;
+    let sumB = 0;
+    for (let i = 0; i < sumA.length; i++) {
+        sumA += sumA[i] ** 2;
+    }
+
+    for (let i = 0; i < sumB.length; i++) {
+        sumB += sumB[i] ** 3;
+    }
+    return sumA > sumB;
+}
+
+function arrayMadness(a, b) {
+    let sumA = 0;
+    let sumB = 0;
+    a.map(num => { sumA += Math.pow(num, 2) });
+    b.map(num => { sumB += Math.pow(num, 3) });
+    return sumA > sumB;
+}
+let someA = someB = 0;
