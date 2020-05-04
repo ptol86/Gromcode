@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.navigation {
+    min-height: 200px;
+    background-color: #ff7f50;
+    display: flex;
+    flex: 1;
+}
+
+.product-list {
+    min-height: 200px;
+    background-color: #006400;
+    display: flex;
+    flex: 1;
+}
+
+.news {
+    min-height: 200px;
+    background-color: #0ff;
+    display: flex;
+    flex: 1;
+}
+
+span {
+    text-transform: lowercase;
+    font-family: Verdana;
+    background-color: #faebd7;
+    padding: 8px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+@media screen and (min-width: 601px) {
+    .products {
+        display: flex;
+        flex: 2;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        display: flex;
+    }
+}
