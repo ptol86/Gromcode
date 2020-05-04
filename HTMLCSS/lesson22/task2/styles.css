@@ -9,7 +9,7 @@
     flex: 1;
 }
 
-.product-list {
+.products-list {
     min-height: 200px;
     background-color: #006400;
     display: flex;
@@ -32,7 +32,7 @@ span {
     margin: auto;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 600px) {
     .products {
         display: flex;
         flex: 2;
