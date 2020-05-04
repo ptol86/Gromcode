@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: yellow;
+    height: 40px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+}
+
+.dashboard {
+    background-color: pink;
+    flex: 1;
+}
+
+.news {
+    background-color: grey;
+    width: 200px;
+}
+
+.footer {
+    background-color: green;
+    height: 40px;
+}
