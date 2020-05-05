@@ -115,3 +115,9 @@ function removeEveryOther(arr) {
     }
     return result;
 }
+
+
+function firstNonConsecutive(arr) {
+    let first = [];
+    for (let i = 0; i)
+}

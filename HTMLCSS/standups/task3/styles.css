@@ -19,8 +19,14 @@
 }
 
 .dashboard {
+    display: flex;
     background-color: pink;
     flex: 1;
+}
+
+.title {
+    margin: auto;
+    width: 300px;
 }
 
 .news {
@@ -31,4 +37,7 @@
 .footer {
     background-color: green;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
