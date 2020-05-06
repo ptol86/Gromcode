@@ -12,6 +12,16 @@
     background-color: yellow;
     height: 40px;
 }
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list-item {
+    margin-left: 16px;
+    line-height: 40px;
+}
 
 .main {
     flex: 1;
@@ -26,14 +36,29 @@
 
 .title {
     margin: auto;
-    width: 300px;
+    
 }
 
 .news {
+    display: flex;
     background-color: grey;
     width: 200px;
 }
+.news__title {
+    margin: 16px;
+    text-align: center;
+}
+.news__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
+}
+.news__list-item {
+    line-height: 40px;
+    padding: 16px;
+    
+}
 .footer {
     background-color: green;
     height: 40px;
