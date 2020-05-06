@@ -87,10 +87,11 @@ html {
         font-size: 35px;
         text-align: center;
         margin: 0;
-        line-height: .9;
+        line-height: 33px;
         &--small {
+            line-height: 20px;
             font-weight: normal;
-            font-size: 18px;
+            font-size: 20px;
         }
     }
     &__price {
