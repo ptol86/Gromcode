@@ -1,31 +1,41 @@
+@import "breakpoint.scss";
 .main {
     flex: 1;
     display: flex;
     flex-direction: column;
+
+    @include for-large-up {
+        
+        flex-direction: row;
+    }
 }
 .wrapper {
     display: flex;
     flex-direction: column;
 
-    @media screen and (min-width: 600px) {
+    @include for-medium-up {
         flex-direction: row;
     }
+    
 }
 
 .section {
         padding: 0.5em;
     font-size: 1.25em;
 
-    @media screen and (min-width: 600px) {
-        width: 80%;
+    @include for-medium-up {
+            width: 80%;
     }
-    
+    // @include for-large-up {
+        
+    //     width: 60%;
+    // }
 }
 .navigation {
     
     padding: 0.5em;
 
-    @media screen and (min-width: 600px) {
+    @include for-medium-up  {
         width: 20%;
     }
     
@@ -77,4 +87,6 @@
 .news {
     // width: 20%;
     padding: 0.5em;
+
+   
 }
